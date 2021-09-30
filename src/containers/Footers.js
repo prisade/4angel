@@ -24,7 +24,7 @@ export default function BottomTabNavigator({ navigation, background, colorTitle,
                     active={route.name === "Stores" ? true : false}
                     vertical
                     badge>
-                    <Badge style={{ backgroundColor: FOOTER.THEME }}><Text>4</Text></Badge>
+                    <Badge style={{ backgroundColor: FOOTER.icon_COLOR }}><Text>4</Text></Badge>
                     <Icon name="shoppingcart" type="AntDesign" style={{ fontSize: 25, color: route.name === "Stores" ? `${FOOTER.THEME}` : `${FOOTER.text_COLOR}` }} active={route.name === "Stores" ? true : false} />
 
                 </Button>
@@ -34,7 +34,7 @@ export default function BottomTabNavigator({ navigation, background, colorTitle,
                     active={route.name === "Messaging" ? true : false}
                     vertical
                     badge>
-                    <Badge style={{ backgroundColor: FOOTER.THEME }}><Text>2</Text></Badge>
+                    <Badge style={{ backgroundColor: FOOTER.icon_COLOR }}><Text>2</Text></Badge>
                     <Icon name="message1" type="AntDesign" style={{ fontSize: 25, color: route.name === "Messaging" ? `${FOOTER.THEME}` : `${FOOTER.text_COLOR}` }} active={route.name === "Messaging" ? true : false} />
 
                 </Button>

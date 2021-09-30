@@ -13,14 +13,14 @@ export const CONTAINER = {
 }
 
 export const FOOTER = {
-    BG_COLOR: '#fff',
-    icon_COLOR: '#fff',
+    BG_COLOR: '#34ddd0',
+    icon_COLOR: '#000',
     icon_ACTIVE_COLOR: '#FF5001',
     icon_SIZE: 40,
-    text_COLOR: '#000000',
+    text_COLOR: '#fff',
     text_SIZE: 15,
 
-    THEME:  "#FD6018",
+    THEME:  "#fff",
     ALTERNATE: '#F48A8A',
 }
 
@@ -60,6 +60,7 @@ export const BODY = {
     LIGHT_BLACK: '#5A5656',
     GRAY:'#676766',
     BLUE: '#065fd4',
+    SKYBLUE: '#1b98e3',
 
   
     THEME:  "#fff",

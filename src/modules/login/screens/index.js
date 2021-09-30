@@ -80,13 +80,13 @@ const Login = (props) => {
         <Container >
             <Content >
                 <View style={{ height: height - (height * 0.1) }}>
-                    <Image style={styles.logo} source={require('res/images/logo.png')} />
+                    <Image style={styles.logo} source={require('res/images/main-logo.png')} />
                     <View style={[styles.errorCont, { backgroundColor: (isError) ? BODY.bg_LIGHT_GRAY : 'transparent', }]}>
                         {isError ? Errors : null}
                     </View>
                     <View style={{ flex: 1, justifyContent: "flex-end" }}>
                         <View style={{ flexDirection: 'column', padding: 10 }}>
-                            <Text xb rg dark style={{ alignSelf: 'flex-start', marginLeft: 10 }}>LOGIN</Text>
+                            <Text xb rg dark style={{ alignSelf: 'flex-start', marginLeft: 10 }}>Username</Text>
                             <Item style={styles.Item}>
                                 <Input placeholder='' value={email} name="email" onChangeText={val => setEmail(val)} />
                             </Item>
@@ -96,7 +96,7 @@ const Login = (props) => {
                                 <Input placeholder='' value={password} name="password" onChangeText={val => setPassword(val)}  secureTextEntry/>
                             </Item>
                         </View>
-                        <Button style={[styles.Button, { backgroundColor: BODY.ORANGE_COLOR, borderColor: BODY.ORANGE_COLOR }]} onPress={() => _login()}>
+                        <Button style={[styles.Button, { backgroundColor: BODY.SKYBLUE, borderColor: BODY.SKYBLUE }]} onPress={() => _login()}>
                             {isFetching ? (<Bubbles size={10} color="fff" />) 
                                :(<Text light xb>LOGIN</Text>)
                             }

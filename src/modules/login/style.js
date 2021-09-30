@@ -9,10 +9,10 @@ export const styles = StyleSheet.create({
     logo  : {
         alignSelf: 'center',
         justifyContent: 'center',
-        height: undefined,
-        aspectRatio: 4 / 4,
-        width: "60%",
-        marginTop: 70
+        height: 200,
+        aspectRatio: 5 / 3.50,
+        width: "30%",
+        marginTop: 100
     },
     errorCont:{ borderRadius: 5, padding: 10, justifyContent: 'center', alignItems: 'center',width:'90%',alignSelf:"center" }
 

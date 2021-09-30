@@ -12,7 +12,7 @@ const NewsFeed = () => {
                     </Left>
                     <Body style={{ flex: 0.65 }}>
                         <Text >
-                            Wanted to ask if you’re available for a portrait shoot next week. Wanted to ask if you’re available for a portrait shoot next week.
+                            Available Shift.
                    </Text>
                     </Body>
                 </CardItem>
@@ -24,7 +24,16 @@ const NewsFeed = () => {
                     </Left>
                     <Body style={{ flex: 0.65 }}>
                         <Text >
-                            Wanted to ask if you’re available for a portrait shoot next week. Wanted to ask if you’re available for a portrait shoot next week.
+                            Avaialble Shift.
+                   </Text>
+                    </Body>
+                </CardItem>
+            </TouchableOpacity>
+            {/* <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
+                <CardItem bordered>
+                    <Body>
+                        <Text >
+                            Avaialble shift.
                    </Text>
                     </Body>
                 </CardItem>
@@ -33,20 +42,11 @@ const NewsFeed = () => {
                 <CardItem bordered>
                     <Body>
                         <Text >
-                            Wanted to ask if you’re available for a portrait shoot next week. Wanted to ask if you’re available for a portrait shoot next week.
+                            Avaialble Shift.
                    </Text>
                     </Body>
                 </CardItem>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
-                <CardItem bordered>
-                    <Body>
-                        <Text >
-                            Wanted to ask if you’re available for a portrait shoot next week. Wanted to ask if you’re available for a portrait shoot next week.
-                   </Text>
-                    </Body>
-                </CardItem>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
                 <CardItem bordered >
                     <Left style={{ flex: 0.35 }}>
@@ -54,7 +54,7 @@ const NewsFeed = () => {
                     </Left>
                     <Body style={{ flex: 0.65 }}>
                         <Text >
-                            Wanted to ask if you’re available for a portrait shoot next week. Wanted to ask if you’re available for a portrait shoot next week.
+                            Avaialble Shift.
                    </Text>
                     </Body>
                 </CardItem>
