@@ -16,9 +16,9 @@ export default function BottomTabNavigator({ navigation, background, colorTitle,
                     active={route.name === "Home" ? true : false}
                     style={{ backgroundColor: 'transparent' }}
                     vertical>
-                    <Icon name="home-outline" type="Ionicons" style={{ fontSize: 25, color: route.name === "Home" ? `${FOOTER.THEME}` : `${FOOTER.text_COLOR}` }} active={route.name === "Home" ? true : false} />
+                    <Icon name="calendar" type="Ionicons" style={{ fontSize: 25, color: route.name === "Home" ? `${FOOTER.THEME}` : `${FOOTER.text_COLOR}` }} active={route.name === "Home" ? true : false} />
                 </Button>
-                <Button
+                {/* <Button
                     onPress={() => navigation.navigate("Stores")}
                     style={{ backgroundColor: 'transparent' }}
                     active={route.name === "Stores" ? true : false}
@@ -27,7 +27,7 @@ export default function BottomTabNavigator({ navigation, background, colorTitle,
                     <Badge style={{ backgroundColor: FOOTER.icon_COLOR }}><Text>4</Text></Badge>
                     <Icon name="shoppingcart" type="AntDesign" style={{ fontSize: 25, color: route.name === "Stores" ? `${FOOTER.THEME}` : `${FOOTER.text_COLOR}` }} active={route.name === "Stores" ? true : false} />
 
-                </Button>
+                </Button> */}
                 <Button
                     onPress={() => navigation.navigate("Messaging")}
                     style={{ backgroundColor: 'transparent' }}

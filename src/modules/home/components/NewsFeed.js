@@ -5,7 +5,7 @@ import { Text } from 'components'
 const NewsFeed = () => {
     return (
         <Card noShadow>
-            <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
+            {/* <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
                 <CardItem bordered >
                     <Left style={{ flex: 0.35 }}>
                         <Thumbnail square large source={{ uri: 'https://placeimg.com/140/140/any' }} />
@@ -28,7 +28,7 @@ const NewsFeed = () => {
                    </Text>
                     </Body>
                 </CardItem>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             {/* <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
                 <CardItem bordered>
                     <Body>
@@ -47,7 +47,7 @@ const NewsFeed = () => {
                     </Body>
                 </CardItem>
             </TouchableOpacity> */}
-            <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
+            {/* <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
                 <CardItem bordered >
                     <Left style={{ flex: 0.35 }}>
                         <Thumbnail square large source={{ uri: 'https://placeimg.com/140/140/any' }} />
@@ -58,13 +58,13 @@ const NewsFeed = () => {
                    </Text>
                     </Body>
                 </CardItem>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
                 <CardItem bordered>
                     <Body>
                         <Text >
-                            Wanted to ask if you’re available for a portrait shoot next week. Wanted to ask if you’re available for a portrait shoot next week.
-                   </Text>
+                            Available Shift.
+                     </Text>
                     </Body>
                 </CardItem>
             </TouchableOpacity>
@@ -72,8 +72,35 @@ const NewsFeed = () => {
                 <CardItem bordered>
                     <Body>
                         <Text >
-                            Wanted to ask if you’re available for a portrait shoot next week. Wanted to ask if you’re available for a portrait shoot next week.
-                   </Text>
+                        Available Shift.
+                      </Text>
+                    </Body>
+                </CardItem>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
+                <CardItem bordered>
+                    <Body>
+                        <Text >
+                        Available Shift.
+                      </Text>
+                    </Body>
+                </CardItem>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
+                <CardItem bordered>
+                    <Body>
+                        <Text >
+                        Available Shift.
+                      </Text>
+                    </Body>
+                </CardItem>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => { console.log('hehe'); }} activeOpacity={1}>
+                <CardItem bordered>
+                    <Body>
+                        <Text >
+                        Available Shift.
+                      </Text>
                     </Body>
                 </CardItem>
             </TouchableOpacity>
