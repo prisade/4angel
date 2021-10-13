@@ -84,29 +84,29 @@ const Login = (props) => {
                     <View style={[styles.errorCont, { backgroundColor: (isError) ? BODY.bg_LIGHT_GRAY : 'transparent', }]}>
                         {isError ? Errors : null}
                     </View>
-                    <View style={{ flex: 1, justifyContent: "flex-end" }}>
-                        <View style={{ flexDirection: 'column', padding: 10 }}>
-                            <Text xb rg dark style={{ alignSelf: 'flex-start', marginLeft: 10 }}>Username</Text>
+                    <View style={{ flex: 1, backgroundColor: "#0086b3", marginTop: 30, borderTopRightRadius: 50, borderTopLeftRadius: 50 }}>
+                        <View style={{flexDirection: 'column', padding: 10, marginTop: 60 }}>
+                            {/* <Text xb rg dark style={{ alignSelf: 'flex-start', marginLeft: 10 }}>Username</Text> */}
                             <Item style={styles.Item}>
-                                <Input placeholder='' value={email} name="email" onChangeText={val => setEmail(val)} />
+                                <Input placeholderTextColor='white' placeholder='Username' value={email} name="email" onChangeText={val => setEmail(val)} />
                             </Item>
 
-                            <Text xb rg dark style={{ alignSelf: 'flex-start', marginTop: 10, marginLeft: 10 }}>PASSWORD</Text>
+                            {/* <Text xb rg dark style={{ alignSelf: 'flex-start', marginTop: 10, marginLeft: 10 }}>PASSWORD</Text> */}
                             <Item style={styles.Item}>
-                                <Input placeholder='' value={password} name="password" onChangeText={val => setPassword(val)}  secureTextEntry/>
+                                <Input placeholderTextColor='white' placeholder='Password' value={password} name="password" onChangeText={val => setPassword(val)}  secureTextEntry/>
                             </Item>
+                            <Button style={[styles.Button2, { margin: 0, width: "50%" }]} transparent light>
+                                <Text light>Forgot Password?</Text>
+                            </Button>
                         </View>
-                        <Button style={[styles.Button, { backgroundColor: BODY.SKYBLUE, borderColor: BODY.SKYBLUE }]} onPress={() => _login()}>
+                        <Button style={[styles.Button, { backgroundColor: '#fff', borderColor: '#fff' }]} onPress={() => _login()}>
                             {isFetching ? (<Bubbles size={10} color="fff" />) 
-                               :(<Text light xb>LOGIN</Text>)
+                               :(<Text dark xb>Login</Text>)
                             }
                         </Button>
-                        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <View style={{ justifyContent: 'space-between' }}>
                             <Button style={[styles.Button2, { margin: 0, width: "50%" }]} transparent light onPress={() => navigation.navigate('Register')}>
-                                <Text xb darkgray>DON'T HAVE ACCOUNT?</Text>
-                            </Button>
-                            <Button style={[styles.Button2, { margin: 0, width: "50%" }]} transparent light>
-                                <Text xb darkgray>FORGOT PASSWORD?</Text>
+                                <Text light>Create New Account</Text>
                             </Button>
                         </View>
                     </View>

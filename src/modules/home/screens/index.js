@@ -16,7 +16,7 @@ const Home = (props) => {
 
     return (
         <Container style={styles.Container}>
-            <Headers body bodyText="SHIFTS" />
+            <Headers body bodyText="Home" />
             <Content refreshControl={
                 <RefreshControl
                     onRefresh={() => console.log('RefreshControl')}
